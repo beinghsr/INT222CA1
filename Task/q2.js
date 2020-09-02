@@ -8,18 +8,18 @@ const readline = require('readline').createInterface({
 });
 
 readline.question("Enter the number n \n", n => {
-    sumOfN(n);
+    sumOfN(parseInt(n));
     readline.close();
 });
 
 function sumOfN(n){
-    var sum = 0;
-
-    sum = (n * (n+1)) / 2;
+    var sum = n * (n+1) / 2;
+    console.log(sum);
 
     fs.writeFile('results.txt', sum, (err)=>{ 
         if( err ) { 
             console.log("Error occurred");
+            throw err;
         } 
         else{
             console.log("Success");

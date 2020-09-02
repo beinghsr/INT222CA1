@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/beinghsr/INT222CA1#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "fs": "0.0.1-security",
     "node-error-handler": "^1.1.11"
   }
