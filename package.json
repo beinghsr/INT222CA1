@@ -1,0 +1,23 @@
+{
+  "name": "ca1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "q1a.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beinghsr/INT222CA1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beinghsr/INT222CA1/issues"
+  },
+  "homepage": "https://github.com/beinghsr/INT222CA1#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-error-handler": "^1.1.11"
+  }
+}
